@@ -1,0 +1,22 @@
+{
+  "name": "rimworld-visual-mod-maker-v50",
+  "version": "0.50.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "web": "vite --host 127.0.0.1",
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "jszip": "3.10.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.66",
+    "@types/react-dom": "18.2.22",
+    "typescript": "5.4.5",
+    "vite": "5.4.21"
+  }
+}
